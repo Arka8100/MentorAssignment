@@ -1,0 +1,33 @@
+* Different states of thread :
+	1.NEW
+
+	2.RUNNABLE
+
+	3.BLOCKED
+
+	4.WAITING
+
+	5.TIMED_WAITING
+
+	6.TERMINATED
+
+
+ 1.NEW
+	When a new thread is created, it is in the new state.A thread that has not yet started is in this state.
+ 2.RUNNABLE
+	 A thread that which is ready to run, is moved to runnable state. In this state, a thread might actually be running or it might be ready 
+	run at any instant of time.
+ 3.BLOCKED
+	A thread is in the blocked state when it tries to access a protected section of code that is currently locked by some other
+	 thread. When the protected section is unlocked, the schedule picks one of the thread which is blocked for that section and
+	 moves it to the runnable state.
+ 4.WAITING
+	 A thread is in the waiting state when it waits for another thread on a condition. When this condition is fulfilled, the 
+	thread is moved to runnable state.
+ 5.TIMED_WAITING
+	 A thread lies in timed waiting state when it calls a method with a time out parameter. A thread lies in this state until
+	 the timeout is completed or until a notification is received
+ 6.TERMINATED
+	A thread that has exited, is in this state.
+
+

@@ -1,0 +1,2 @@
+* The access modifiers in the order of increasing restrictiveness
+	public -> protected -> default -> private 
